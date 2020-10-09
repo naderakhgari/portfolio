@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  height: 20vh;
+  display: flex;
+  font-size: calc(35px + 2vmin);
+  color: white;
+}
+
+.body-container{
+  background-color: rgb(163, 241, 241);
+}
