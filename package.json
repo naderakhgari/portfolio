@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Nader portfolio react app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naderakhgari/portfolio.git"
+  },
+  "author": "Nader Akhgari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naderakhgari/portfolio/issues"
+  },
+  "homepage": "https://github.com/naderakhgari/portfolio#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1"
+  }
+}
