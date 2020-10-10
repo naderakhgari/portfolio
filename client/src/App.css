@@ -4,13 +4,127 @@
 
 
 .App-header {
-  background-color: #282c34;
-  height: 20vh;
+  background-color: #636a7a;
+  height: 15vh;
   display: flex;
-  font-size: calc(35px + 2vmin);
+  justify-content: center;
   color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header-title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  font-size: calc(35px + 2vmin);
+}
+.header-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  font-size: calc(6px + 2vmin);
+  text-decoration: none;
+}
+.header-link{
+  text-decoration: none;
+  color: white;
+} 
+
+.main{
+  width: 100%;
 }
 
 .body-container{
-  background-color: rgb(212, 253, 253);
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.App-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  display: flex;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.project-img{
+  height: 350px;
+  width: 350px;
+  border-radius: 4px;
+}
+.project-img:hover{
+  height: 400px;
+  width: 400px;
+}
+
+.nolink{
+  text-decoration: none;
+  color: #636a7a;
+}
+
+.form-style{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.formGroup{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.form-element{
+  padding: 20px;
+  width: 100%;
+}
+
+/* About me  ***********************************/
+.about-me{
+  font-size: 33px;
+}
+.about-me-text{
+  font-size: 25px;
+  text-align: justify;
+}
+
+/* Home *************************************************/
+.home-container{
+  display: flex;
+  justify-content: center;
+}
+.left-home,
+.right-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-link{
+  font-size: 30px;
 }
