@@ -64,22 +64,38 @@
   width: 20%;
 }
 
+/* Project ****************************************8*/
 
 .projects{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin-top: 40px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.project-margin{
+  margin: 15px 0;
 }
 .project-img{
   height: 350px;
   width: 350px;
   border-radius: 4px;
 }
-.project-img:hover{
+/* .project-img:hover{
   height: 400px;
   width: 400px;
-}
+} */
 
 .nolink{
   text-decoration: none;
@@ -105,12 +121,22 @@
 }
 
 /* About me  ***********************************/
+.about-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
 .about-me{
   font-size: 33px;
 }
 .about-me-text{
   font-size: 25px;
   text-align: justify;
+}
+
+.nader-img{
+  border-radius: 60%;
 }
 
 /* Home *************************************************/

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import "./grid.css";
 
@@ -53,9 +53,9 @@ function App() {
       </div> */}
       <footer className="App-footer">
         <div className="footer-icons">
-        <a href="https://github.com/naderakhgari" className="nolink" target="_blank"><FaGithub /></a>
-        <a href="https://www.linkedin.com/in/nader-akhgari/" className="nolink" target="_blank"><FaLinkedin /></a>
-        <a href="https://twitter.com/AkhgariNader" className="nolink" target="_blank"><FaTwitter /></a>
+        <a href="https://github.com/naderakhgari" className="nolink" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/nader-akhgari/" className="nolink" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="https://twitter.com/AkhgariNader" className="nolink" rel="noopener noreferrer"><FaTwitter /></a>
         </div>
       </footer>
     </div>

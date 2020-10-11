@@ -15,16 +15,17 @@ setMessage({
 })
     }
   return (
-    <div className="row">
-      <form className="form-style col-12">
+    <div className="container">
+      <form className="form-style row">
         <formGroup className="formGroup col-12">
-          <formGroup className="form-element col-10">
+          <formGroup className="form-element col-12">
             <label>Name</label>
             <input
               placeholder="Your name"
               type="text"
               name="name"
               onChange={onChange}
+              required
             ></input>
           </formGroup>
           <formGroup className="form-element">
@@ -34,6 +35,7 @@ setMessage({
               type="text"
               name="email"
               onChange={onChange}
+              required
             ></input>
           </formGroup>
           <formGroup className="form-element">
@@ -43,6 +45,7 @@ setMessage({
               type="text-area"
               name="text"
               onChange={onChange}
+              required
             ></input>
           </formGroup>
         </formGroup>
