@@ -24,9 +24,6 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
-    "express": "^4.17.1",
-    "react-icons": "^3.11.0",
-    "react-pdf": "^5.0.0",
-    "react-router-dom": "^5.2.0"
+    "express": "^4.17.1"
   }
 }
