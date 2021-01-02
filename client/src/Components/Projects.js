@@ -11,7 +11,9 @@ import {FaGithub } from 'react-icons/fa';
 
 const Projects = ()=>{
     return(
-        <div className="projects container">
+      <div>
+          <h2>Projects</h2>
+          <div className="projects container">
           <div className="project">
             <a href="https://cyf-naderakhgari-chat-react.netlify.app/" rel="noopener noreferrer">
           <img  src={chat} alt="chat project" className="project-img" />
@@ -55,6 +57,8 @@ const Projects = ()=>{
             <a href="https://github.com/naderakhgari/cyf-chat-react" rel="noopener noreferrer" className="header-link project-margin"><FaGithub /> Repository</a>
           </div>
         </div>
-    )
+
+      </div>
+            )
 }
 export default Projects;
