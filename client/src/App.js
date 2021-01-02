@@ -5,11 +5,8 @@ import "./grid.css";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Projects from "./Components/Projects";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-import Home from "./Components/Home";
-import Cv from "./Components/CV";
 
 function App() {
   return (
@@ -30,33 +27,11 @@ function App() {
           </a>
         </div>
       </header>
-      <Router className="main">
-        <div className="body-container">
-          <Switch>
-            <Route exact path="/about">
-              <About />
-            </Route>
-            <Route exact path="/contact">
-              <Contact />
-            </Route>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/projects">
-              <Projects />
-            </Route>
-            <Route exact path="/cv">
-              <Cv />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
-      {/* <div className="container body-container">
-        <div>
-        <p>This is the portfolio body</p>
-        </div>
+      <main className="main-container">
+        <About />
         <Projects />
-      </div> */}
+        <Contact />
+      </main>
       <footer className="App-footer">
         <div className="footer-icons">
           <a
