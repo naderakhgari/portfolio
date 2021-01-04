@@ -12,7 +12,7 @@ import {FaGithub } from 'react-icons/fa';
 const Projects = ()=>{
     return(
       <div>
-          <h2>Projects</h2>
+          <h2>Personal Projects</h2>
           <div className="projects container">
           <div className="project">
             <a href="https://cyf-naderakhgari-chat-react.netlify.app/" rel="noopener noreferrer">
