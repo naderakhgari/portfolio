@@ -158,3 +158,20 @@
 .home-link{
   font-size: 30px;
 }
+
+/* Contact ******************************************** */
+
+.contact-container{
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (min-width: 576px) {
+  .contact-container{
+    margin: 100px 0;
+  }
+}
