@@ -18,16 +18,18 @@ const Contact = () => {
       <h2>Contact</h2>
       <h4>LET'S KEEP IN TOUCH</h4>
       <form className="form-style">
-        <label>Name</label>
+        <label>Name:</label>
         <input
+          className="input"
           placeholder="Your name"
           type="text"
           name="name"
           onChange={onChange}
           required
         ></input>
-        <label>Email</label>
+        <label>Email:</label>
         <input
+          className="input"
           placeholder="Your Email"
           type="text"
           name="email"
@@ -36,13 +38,14 @@ const Contact = () => {
         ></input>
         message:{" "}
         <textarea
+          className="input"
           placeholder="The message"
           type="text-area"
           name="text"
           onChange={onChange}
           required
         ></textarea>
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-btn col-6 sm-col-4 md-col-3 lg-col-3 xl-col-2">Submit</button>
       </form>
     </div>
   );
