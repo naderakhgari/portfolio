@@ -3,7 +3,7 @@ import Nader from "../img/nader.jpg";
 
 const About = () => {
   return (
-    <div className="container about-container">
+    <div className="container about-container" id="about">
       <div className="col-4">
         <img src={Nader} alt="nader" className="nader-img col-12" />
       </div>

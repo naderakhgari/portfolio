@@ -11,7 +11,7 @@ import {FaGithub } from 'react-icons/fa';
 
 const Projects = ()=>{
     return(
-      <div>
+      <div id="projects">
           <h2>Personal Projects</h2>
           <div className="projects container">
           <div className="project">

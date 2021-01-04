@@ -16,13 +16,13 @@ function App() {
           <p>Nader Akhgari</p>
         </div>
         <div className="header-links">
-          <a href="/" className="header-link">
-            <p>Home</p>
+          <a href="#projects" className="header-link">
+            <p>Projects</p>
           </a>
-          <a href="/contact" className="header-link">
+          <a href="#contact" className="header-link">
             <p>Contact</p>
           </a>
-          <a href="/about" className="header-link">
+          <a href="#about" className="header-link">
             <p>About</p>
           </a>
         </div>

@@ -14,7 +14,7 @@ const Contact = () => {
     });
   };
   return (
-    <div className="container contact-container">
+    <div className="container contact-container" id="contact">
       <h2>Contact</h2>
       <h4>LET'S KEEP IN TOUCH</h4>
       <form className="form-style">
